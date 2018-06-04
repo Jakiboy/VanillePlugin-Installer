@@ -1,0 +1,262 @@
+body{
+    background-color: #f5f5f5;
+}
+
+a{
+    color:#2f65b0;
+}
+
+.VanilleNameSpace-admin {
+    margin: 20px;
+}
+
+.VanilleNameSpace-admin ul.styled {
+    list-style: disc;
+    padding-left: 40px;
+}
+
+.VanilleNameSpace-admin .nav-tabs .nav-link:active, 
+.VanilleNameSpace-admin .nav-tabs .nav-link:focus, 
+.VanilleNameSpace-admin .nav-tabs .nav-link:hover {
+    box-shadow: none;
+}
+
+.VanilleNameSpace-admin .card{
+    max-width: none;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+    border: 0;
+    border-radius: 3px;
+}
+
+.VanilleNameSpace-admin .card-body {
+    padding: 10px !important;
+}
+
+.VanilleNameSpace-admin .card-header {
+    border:0;
+    padding: 20px;
+    background: whitesmoke;
+    margin-bottom: 20px;
+}
+
+.VanilleNameSpace-admin .card-title {
+    color: #1f2f46;
+}
+
+.VanilleNameSpace-admin .table {
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+    border-radius: 3px;
+}
+
+.VanilleNameSpace-admin .form-control{
+    background: whitesmoke;
+    border-width: 0 0 1px;
+    height: 40px;
+    padding: 10px 10px;
+    box-shadow: none;
+}
+
+.VanilleNameSpace-admin .custom-select:hover, 
+.VanilleNameSpace-admin .form-control:hover {
+    border-color: #e5e5e5;
+    -webkit-box-shadow: inset 0 -2px 0 -1px rgb(43, 101, 178);
+    box-shadow: inset 0 -2px 0 -1px rgb(43, 101, 178);
+}
+
+.VanilleNameSpace-admin .custom-select:focus, 
+.VanilleNameSpace-admin .form-control:focus {
+    border-color: #0069d9;
+    -webkit-box-shadow: inset 0 -2px 0 -1px #0069d9;
+    box-shadow: inset 0 -2px 0 -1px #0069d9;
+    outline: 0;
+}
+
+.VanilleNameSpace-admin .btn-primary {
+    background-color: #0069d9;
+    cursor: pointer;
+}
+
+.VanilleNameSpace-admin .btn-primary:active,
+.VanilleNameSpace-admin .btn-primary:focus {
+    box-shadow: none !important;
+}
+
+.VanilleNameSpace-admin .btn-secondary{
+    background-color: #727b84 !important;
+}
+
+.swal-button:active, 
+.swal-button:focus {
+    box-shadow: none !important;
+}
+
+.VanilleNameSpace-admin .form-check-label{
+    padding: 0;
+}
+
+.VanilleNameSpace-admin .icon {
+    font-size: 24px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.VanilleNameSpace-admin .alert .icon {
+    color: #a9112c;
+}
+
+.VanilleNameSpace-admin .icon-heading {
+    background: #6737b8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    height: 24px;
+    width: 24px;
+    margin: 0;
+}
+
+.VanilleNameSpace-admin .VanilleNameSpace-data .send-mail a {
+    background: #f3f3f3;
+    padding: 5px 10px;
+    color: #6734ba;
+    border-radius: 25px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.VanilleNameSpace-admin .VanilleNameSpace-data .show-request,
+.VanilleNameSpace-admin .VanilleNameSpace-data .edit-request{
+    background: #192b44;
+    padding: 5px 10px;
+    color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.VanilleNameSpace-admin .VanilleNameSpace-data .phone a {
+    background: #f3f3f3;
+    padding: 5px 10px;
+    color: #6734ba;
+    font-size: 18px;
+    border-radius: 25px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.VanilleNameSpace-admin .VanilleNameSpace-data .phone span {
+    color: #6734ba;
+}
+
+.VanilleNameSpace-admin .VanilleNameSpace-data .type span {
+    background: #ffffff;
+    padding: 5px 10px;
+    color: #6737b8;
+    border-radius: 25px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
+    display: block;
+    text-align: center;
+}
+
+.VanilleNameSpace-admin .table-sm thead td, 
+.VanilleNameSpace-admin .table-sm thead th {
+    height: auto;
+}
+
+.VanilleNameSpace-admin .VanilleNameSpace-data {
+    width: 100% !important;
+}
+
+.VanilleNameSpace-admin .btn-action {
+    min-width: auto;
+    background: #6734ba;
+    color: #fff !important;
+}
+
+.VanilleNameSpace-admin .alert {
+    margin: 20px 0;
+    background: white;
+}
+
+.VanilleNameSpace-admin .modal-body {
+    padding: 15px;
+}
+
+.VanilleNameSpace-admin #edit-request-modal .modal-body {
+    min-height: 500px;
+}
+
+.VanilleNameSpace-admin .table tbody td, 
+.VanilleNameSpace-admin .table tbody th {
+    vertical-align: middle;
+    padding: 10px 20px !important;
+}
+
+.VanilleNameSpace-admin .modal-header .close {
+    cursor: pointer;
+}
+
+/* additional */
+
+.VanilleNameSpace-admin .pagination {
+    background: none;
+}
+
+.VanilleNameSpace-admin .page-item.active .page-link {
+    border: 0;
+    background: #6737b8;
+}
+
+.VanilleNameSpace-admin .nav-pills .nav-link.active, 
+.VanilleNameSpace-admin .nav-pills .show > .nav-link {
+    color: #aa0928;
+    background-color: #dedede;
+}
+
+.VanilleNameSpace-admin .nav-pills .nav-link.active, 
+.VanilleNameSpace-admin .nav-pills .show > .nav-link {
+    color: #aa0928;
+    background-color: #dedede;
+}
+
+.VanilleNameSpace-admin .nav-pills .nav-link:focus {
+    box-shadow: none !important;
+}
+
+#adminmenu, 
+#adminmenu .wp-submenu, 
+#adminmenuback, #adminmenuwrap {
+    background-color: #1f2f46 !important;
+}
+
+#wpadminbar{
+    background-color: #1f2f46 !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: #2f65b0;
+}
+
+.nav-tabs .nav-link::before{
+    background: #2f65b0 !important;
+}
+.swal-button--danger {
+    background-color: #aa0928;
+}
+.swal-button--confirm {
+    background: #192b44;
+}
+#VanilleNameSpace-sync {
+    background: #192b44;
+}
+
+#VanilleNameSpace-alert .delete-alert {
+    font-size: 21px;
+    color: #ab0224 !important;
+    cursor: pointer;
+}
+
+.placeholder-input {
+    background: whitesmoke;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+}

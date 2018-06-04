@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VanilleNameSpace\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: JIHAD SINNAOUR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"X-Generator: Poedit 2.0.3\n"
+
+# @ VanilleNameSpace
+msgid "Config"
+msgstr "Configurer"
+
+# @ VanilleNameSpace
+msgid "Settings saved"
+msgstr "Paramètres sauvegardés"
+
+# @ VanilleNameSpace
+msgid "Settings"
+msgstr "Paramètres"
+
+# @ VanilleNameSpace
+msgid "[VanilleName] Option page"
+msgstr "[VanilleName] Options de page"
+
+# @ VanilleNameSpace
+msgid "Options page example"
+msgstr "Exemple de page d'options"
+
+# @ VanilleNameSpace
+msgid "About VanillePlugin"
+msgstr "A propos de VanillePlugin"
+
+# @ VanilleNameSpace
+msgid "About"
+msgstr "A propos"
+
+# @ VanilleNameSpace
+msgid "Wordpress Plugin Framework"
+msgstr "Framework pour les plugins Wordpress"
+
+# @ VanilleNameSpace
+msgid "Page example"
+msgstr "Page exemple"
+
+# @ VanilleNameSpace
+msgid "[VanilleName] : Widget example"
+msgstr "[VanilleName] : Widget exemple"
+
+# @ VanilleNameSpace
+msgid "This is a shortcode example"
+msgstr "Ceci est un exemple de shortcode"
+
+# @ VanilleNameSpace
+msgid "This is a widget example"
+msgstr "Ceci est un exemple de widget"
+
+# @ VanilleNameSpace
+msgid "Error while saving configuration"
+msgstr "Erreur lors de l'enregistrement de la configuration"
+
+# @ VanilleNameSpace
+msgid "Example option"
+msgstr "Option d'exemple"
+
+# @ VanilleNameSpace
+msgid "Example option here"
+msgstr "Option d'exemple ici"
+
+# @ VanilleNameSpace
+msgid "Placeholder input"
+msgstr "Champs d'exemple"
+
+# @ VanilleNameSpace
+msgid "Follow me on github"
+msgstr "Suivez-moi sur github"
+
+# @ VanilleNameSpace
+msgid "On facebook"
+msgstr "Sur facebook"
+
+# @ VanilleNameSpace
+msgid "by"
+msgstr "par"
+
+# @ VanilleNameSpace
+msgid "Feel free to contact me"
+msgstr "N'hésite pas à me contacter"
+
+# @ VanilleNameSpace
+msgid "IT Engineer, Web developer & Code designer"
+msgstr "Ingénieur informtique, Développeur Web et Code designer"
+
+# @ VanilleNameSpace
+msgid "VanillePlugin, a Wordpress Plugin Framework, Clean Code, Fast Development, Easy Maintenance."
+msgstr "VanillePlugin, un framework pour les plugins Wordpress, jolie code, développement accéléré et simple à maintenir."

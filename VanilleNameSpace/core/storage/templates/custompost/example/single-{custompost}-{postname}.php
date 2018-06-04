@@ -1,0 +1,1 @@
+Custom page for Single CPT Name
