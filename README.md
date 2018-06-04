@@ -1,6 +1,6 @@
 # VanillePlugin WordPress
 
-Wordpress Plugin Framework for creating beautiful WordPress plugins.
+Framework for creating beautiful WordPress plugins.
 
 ## Installation
 
