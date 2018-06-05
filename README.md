@@ -1,6 +1,7 @@
 # VanillePlugin WordPress
 
 Framework for creating beautiful WordPress plugins.
+[![forthebadge](https://forthebadge.com/images/badges/built-with-wordpress.svg)](https://forthebadge.com)
 
 ## Installation
 
