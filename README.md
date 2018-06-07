@@ -1,6 +1,6 @@
 # VanillePlugin WordPress
 
-Framework for creating beautiful WordPress plugins.
+Framework for creating beautiful WordPress plugins.<br>
 [![forthebadge](https://forthebadge.com/images/badges/built-with-wordpress.svg)](https://forthebadge.com)
 
 ## Installation
