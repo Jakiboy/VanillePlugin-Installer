@@ -1,1 +1,0 @@
-Custom Search page for CPT

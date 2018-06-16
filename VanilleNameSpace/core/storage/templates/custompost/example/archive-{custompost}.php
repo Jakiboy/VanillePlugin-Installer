@@ -1,1 +1,0 @@
-Custom page for Archive CPT

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+    <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+    <head>
+        <title>VanillePlugin | Installation</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Wordpress Plugin Framework">
+        <meta name="author" content="Jihad Sinnaour">
+        <link rel="icon" type="image/png" href="assets/images/favicon.png">
+        <link href="assets/fonts/opensans.css" type="text/css">
+        <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+        <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+        <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="assets/plugins/simple-line-icons/css/simple-line-icons.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body class="body-blue">
+        <div class="page-wrapper">
+            <header id="header" class="header">
+                <div class="container">
+                    <div class="branding">
+                        <h1 class="logo">
+                        <img src="./assets/images/vanilleplugin.png">
+                        <span class="text-highlight">Vanille</span>
+                        <span class="text-bold">Plugin</span>
+                        </h1>
+                    </div>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">Components</li>
+                    </ol>
+                </div>
+            </header>
+            <div class="doc-wrapper">
+                <div class="container">
+                    <div id="doc-header" class="doc-header">
+                        <h1 class="doc-title"><i class="icon-puzzle icons"></i> Components</h1>
+                        <div class="meta"><i class="fa fa-clock-o"></i> Last updated: June 12th, 2018</div>
+                    </div>
+                    <div class="doc-body">
+                        <div class="doc-content">
+                            <div class="content-inner">
+                                <section id="structure-section" class="doc-section">
+                                    <h2 class="section-title">Structure</h2>
+                                    <div class="row">
+                                        <div class="col-md-12 col-sm-12 col-xs-12">
+<div class="code-block">
+<pre>
+<code class="language-text">
++--- VanillePlugin
+|  
+|--- {VanilleNameSpace}.php
+|--- index.php
+|--- uninstall.php
+|--- license.txt
+|+-- languages
+||   --- {VanilleNameSpace}-fr_FR.po
+||   --- {VanilleNameSpace}.pot
+|+-- core
+||   +-- Framework.php
+||   +-- composer.json
+||   +-- ...
+</code>
+</pre>
+</div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section id="root-section" class="doc-section">
+                                    <h2 class="section-title">Root</h2>
+                                    <div id="main" class="section-block">
+                                        <h3 class="block-title">{VanilleNameSpace}.php</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+                                        </p>
+                                    </div>
+                                    <div id="index" class="section-block">
+                                        <h3 class="block-title">Index file</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                    </div>
+                                    <div id="uninstall" class="section-block">
+                                        <h3 class="block-title">Uninstall file</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                    </div>
+                                    <div id="license" class="section-block">
+                                        <h3 class="block-title">License file</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                    </div>
+                                </section>
+                                
+                                <section id="languages-section" class="doc-section">
+                                    <h2 class="section-title">Languages</h2>
+                                    <div class="section-block">
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                    </div>
+                                    <div id="plugin-name" class="section-block">
+                                        <h3>{VanilleNameSpace}-fr_FR.po</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                    </div>
+                                    <div id="plugin-namespace" class="section-block">
+                                        <h3>{VanilleNameSpace}.pot</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                    </div>
+                                </section>
+
+                                <section id="core-section" class="doc-section">
+                                    <h2 class="section-title">Core</h2>
+                                    <div class="section-block">
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                                    </div>
+                                    <div id="framework" class="section-block">
+                                        <h3>Framework.php</h3>
+                                        <p>VanillePlugin autoloader</p>
+                                    </div>
+                                    <div id="composer" class="section-block">
+                                        <h3>composer.json</h3>
+                                        <p>Manage PHP dependencies via composer. see more</p>
+                                        <pre>
+<code class="language-json">{
+    "require": {
+        "twig/twig": "~2.0"
+    }
+}</code>
+                                        </pre>                                        
+                                    </div>
+                                    <div id="view" class="section-block">
+                                        <h3>View</h3>
+                                        <p>Containe views templates. Views are determinated by Smarty extension .tpl, under Twig template engine.</p>
+                                    </div>
+                                    <div id="storage" class="section-block">
+                                        <h3>Storage</h3>
+                                        <p>The perfect place for storable files, <strong>config</strong>, <strong>cache</strong>...</p>
+                                    </div>
+                                    <div id="assets" class="section-block">
+                                        <h3>Assets</h3>
+                                        <p>All client-side components lives in this folder. Assets are separated for better organization. <strong>admin</strong>, <strong>front</strong>, and <strong>vendor</strong> for dependencies</p>
+                                    </div>
+                                </section>
+                                
+                            </div>
+                        </div>
+                        <div class="doc-sidebar hidden-xs">
+                            <nav id="doc-nav">
+                                <ul id="doc-menu" class="nav doc-menu" data-spy="affix">
+                                    <li>
+                                        <a class="scrollto" href="#structure-section">Structure</a>
+                                    </li>
+                                    <li>
+                                        <a class="scrollto" href="#root-section">Root</a>
+                                        <ul class="nav doc-sub-menu">
+                                            <li><a class="scrollto" href="#main">Main file</a></li>
+                                            <li><a class="scrollto" href="#index">Index file</a></li>
+                                            <li><a class="scrollto" href="#uninstall">Uninstall file</a></li>
+                                            <li><a class="scrollto" href="#license">License file</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="scrollto" href="#languages-section">languages</a>
+                                        <ul class="nav doc-sub-menu">
+                                            <li><a class="scrollto" href="#plugin-name">{VanilleNameSpace}-fr_FR.po</a></li>
+                                            <li><a class="scrollto" href="#plugin-namespace">{VanilleNameSpace}.pot</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="scrollto" href="#core-section">core</a>
+                                        <ul class="nav doc-sub-menu">
+                                            <li><a class="scrollto" href="#framework">Framework class</a></li>
+                                            <li><a class="scrollto" href="#composer">Composer File</a></li>
+                                            <li><a class="scrollto" href="#view">View folder</a></li>
+                                            <li><a class="scrollto" href="#storage">Storage folder</a></li>
+                                            <li><a class="scrollto" href="#assets">Assets folder</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="scrollto" href="#system-section">system</a>
+                                        <ul class="nav doc-sub-menu">
+                                            <li><a class="scrollto" href="#plugin">Plugin class</a></li>
+                                            <li><a class="scrollto" href="#libraries">Libraries folder</a></li>
+                                            <li><a class="scrollto" href="#includes">Includes folder</a></li>
+                                            <li><a class="scrollto" href="#functions">Functions folder</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="installation.html">Installation</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <footer class="footer text-center">
+            <div class="container">
+                <small class="copyright">Template by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small> |
+                <small class="copyright">VanillePlugin by <a href="https://info.jihadsinnaour.com/" target="_blank">Jihad Sinnaour</a></small>
+            </div>
+        </footer>
+        
+        <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+        <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/jquery-match-height/jquery.matchHeight-min.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+        
+    </body>
+</html>

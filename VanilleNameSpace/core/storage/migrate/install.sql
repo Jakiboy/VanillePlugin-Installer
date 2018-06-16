@@ -1,7 +1,0 @@
-CREATE TABLE IF NOT EXISTS `[DBPREFIX][PREFIX]sample`
-(
-`exampleID` int NOT NULL AUTO_INCREMENT,
-`example` varchar(256) NOT NULL,
-PRIMARY KEY (`exampleID`)
-)
-COLLATE [COLLATE];
